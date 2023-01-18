@@ -1,0 +1,15 @@
+.sidebarContainer {
+  @apply bg-gray-700 h-screen font-sans z-50 py-5 pb-7 border-r w-64 text-white relative;
+}
+
+.active {
+  @apply bg-blue-500 font-medium;
+}
+
+.link {
+  @apply hover:bg-gray-500 text-white font-light flex p-2 rounded;
+}
+
+.text {
+  @apply leading-[1.063rem] flex items-center;
+}
