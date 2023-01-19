@@ -1,5 +1,5 @@
 {
-  "name": "react-test",
+  "name": "plugin-in-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@databrainhq/plugin": "github:databrainhq/plugin",
+    "@databrainhq/plugin": "github:databrainhq/plugin-new",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.2"

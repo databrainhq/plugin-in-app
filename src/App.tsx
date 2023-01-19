@@ -6,12 +6,12 @@ import MainSidebar from './components/MainSidebar';
 import Page from './components/Page';
 
 function App() {
-	const [searchParams] = useSearchParams();
+	const [searchParams, setSearchParams] = useSearchParams();
 	const guestToken = searchParams.get('token');
 	const [token, setToken] = useState(guestToken || '');
 
 	useEffect(() => {
-		if (token) searchParams.set('token', token);
+		if (token) setSearchParams(prev => ({...prev, token}));
 	}, [token]);
 
 	return (
