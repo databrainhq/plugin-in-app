@@ -1,13 +1,13 @@
 .sidebarContainer {
-  @apply bg-gray-700 h-screen font-sans z-50 py-5 pb-7 border-r w-64 text-white relative;
+  @apply bg-[#f0f0f0] h-screen z-50 py-5 pb-7 border-r w-64  relative;
 }
 
 .active {
-  @apply bg-blue-500 font-medium;
+  @apply bg-[#e0e0e0] font-medium;
 }
 
 .link {
-  @apply hover:bg-gray-500 text-white font-light flex p-2 rounded;
+  @apply hover:bg-[#e0e0e0]  font-light flex p-2 rounded;
 }
 
 .text {
